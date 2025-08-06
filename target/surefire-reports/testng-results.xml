@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-05T21:24:59 ACST" name="Command line suite" finished-at="2025-08-05T21:25:05 ACST" duration-ms="5874">
+    <groups>
+    </groups>
+    <test started-at="2025-08-05T21:24:59 ACST" name="Command line test" finished-at="2025-08-05T21:25:05 ACST" duration-ms="5874">
+      <class name="Tests.CurrentWeatherTest">
+        <test-method signature="testDataAccuracy()[pri:0, instance:Tests.CurrentWeatherTest@13c9d689]" started-at="2025-08-05T21:24:59 ACST" name="testDataAccuracy" finished-at="2025-08-05T21:25:01 ACST" duration-ms="2608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataAccuracy -->
+        <test-method signature="testInvalidApiKey()[pri:0, instance:Tests.CurrentWeatherTest@13c9d689]" started-at="2025-08-05T21:25:01 ACST" name="testInvalidApiKey" finished-at="2025-08-05T21:25:02 ACST" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidApiKey -->
+        <test-method signature="testMissingParameters()[pri:0, instance:Tests.CurrentWeatherTest@13c9d689]" started-at="2025-08-05T21:25:02 ACST" name="testMissingParameters" finished-at="2025-08-05T21:25:03 ACST" duration-ms="718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingParameters -->
+        <test-method signature="testParameterCombination()[pri:0, instance:Tests.CurrentWeatherTest@13c9d689]" started-at="2025-08-05T21:25:03 ACST" name="testParameterCombination" finished-at="2025-08-05T21:25:03 ACST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterCombination -->
+        <test-method signature="testResponseSchema()[pri:0, instance:Tests.CurrentWeatherTest@13c9d689]" started-at="2025-08-05T21:25:03 ACST" name="testResponseSchema" finished-at="2025-08-05T21:25:04 ACST" duration-ms="738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseSchema -->
+        <test-method signature="testResponseTime()[pri:0, instance:Tests.CurrentWeatherTest@13c9d689]" started-at="2025-08-05T21:25:04 ACST" name="testResponseTime" finished-at="2025-08-05T21:25:04 ACST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTime -->
+        <test-method signature="testValidApiKey()[pri:0, instance:Tests.CurrentWeatherTest@13c9d689]" started-at="2025-08-05T21:25:04 ACST" name="testValidApiKey" finished-at="2025-08-05T21:25:05 ACST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidApiKey -->
+      </class> <!-- Tests.CurrentWeatherTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

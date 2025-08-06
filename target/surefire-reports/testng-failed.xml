@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="Tests.CurrentWeatherTest">
+        <methods>
+          <include name="testResponseSchema"/>
+          <include name="testResponseTime"/>
+          <include name="testParameterCombination"/>
+          <include name="testDataAccuracy"/>
+          <include name="testValidApiKey"/>
+          <include name="testMissingParameters"/>
+        </methods>
+      </class> <!-- Tests.CurrentWeatherTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

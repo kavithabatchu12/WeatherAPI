@@ -1,0 +1,5 @@
+Utils\ApiClient.class
+Utils\ConfigManager.class
+Payloads\WeatherData.class
+Tests\CurrentWeatherTest.class
+Tests\ForeCastTest.class
