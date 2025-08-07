@@ -1,0 +1,273 @@
+[ [1;34mINFO [m] Scanning for projects...
+[ [1;34mINFO [m] 
+[ [1;34mINFO [m]  [1m------------------------<  [0;36mcom.weatherapi:myapp [0;1m >------------------------ [m
+[ [1;34mINFO [m]  [1mBuilding myapp 0.0.1-SNAPSHOT [m
+[ [1;34mINFO [m]  [1m--------------------------------[ jar ]--------------------------------- [m
+[ [1;34mINFO [m] 
+[ [1;34mINFO [m]  [1m---  [0;32mmaven-resources-plugin:2.6:resources [m  [1m(default-resources) [m @  [36mmyapp [0;1m --- [m
+[ [1;34mINFO [m] Using 'UTF-8' encoding to copy filtered resources.
+[ [1;34mINFO [m] skip non existing resourceDirectory C:\Users\sreek\Weatherapi\myapp\src\main\resources
+[ [1;34mINFO [m] 
+[ [1;34mINFO [m]  [1m---  [0;32mmaven-compiler-plugin:3.8.1:compile [m  [1m(default-compile) [m @  [36mmyapp [0;1m --- [m
+[ [1;34mINFO [m] Nothing to compile - all classes are up to date
+[ [1;34mINFO [m] 
+[ [1;34mINFO [m]  [1m---  [0;32mmaven-resources-plugin:2.6:testResources [m  [1m(default-testResources) [m @  [36mmyapp [0;1m --- [m
+[ [1;34mINFO [m] Using 'UTF-8' encoding to copy filtered resources.
+[ [1;34mINFO [m] Copying 2 resources
+[ [1;34mINFO [m] 
+[ [1;34mINFO [m]  [1m---  [0;32mmaven-compiler-plugin:3.8.1:testCompile [m  [1m(default-testCompile) [m @  [36mmyapp [0;1m --- [m
+[ [1;34mINFO [m] Changes detected - recompiling the module!
+[ [1;34mINFO [m] Compiling 4 source files to C:\Users\sreek\Weatherapi\myapp\target\test-classes
+[ [1;34mINFO [m] 
+[ [1;34mINFO [m]  [1m---  [0;32mmaven-surefire-plugin:2.12.4:test [m  [1m(default-test) [m @  [36mmyapp [0;1m --- [m
+[ [1;34mINFO [m] Surefire report directory: C:\Users\sreek\Weatherapi\myapp\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running Tests.CurrentWeatherTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@42f93a98
+   
+Using Base URI: 'https://api.openweathermap.org/data/2.5'
+{
+    "coord": {
+        "lon": -0.1257,
+        "lat": 51.5085
+    },
+    "weather": [
+        {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 288.27,
+        "feels_like": 287.61,
+        "temp_min": 288.27,
+        "temp_max": 288.27,
+        "pressure": 1018,
+        "humidity": 68,
+        "sea_level": 1018,
+        "grnd_level": 1013
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.92,
+        "deg": 223,
+        "gust": 7.71
+    },
+    "clouds": {
+        "all": 39
+    },
+    "dt": 1754526789,
+    "sys": {
+        "country": "GB",
+        "sunrise": 1754541213,
+        "sunset": 1754595542
+    },
+    "timezone": 3600,
+    "id": 2643743,
+    "name": "London",
+    "cod": 200
+}
+{
+    "cod": 401,
+    "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."
+}
+Using Base URI: 'https://api.openweathermap.org/data/2.5'
+{
+    "cod": "400",
+    "message": "Nothing to geocode"
+}
+Using Base URI: 'https://api.openweathermap.org/data/2.5'
+{
+    "coord": {
+        "lon": -0.1257,
+        "lat": 51.5085
+    },
+    "weather": [
+        {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 15.03,
+        "feels_like": 14.39,
+        "temp_min": 15.03,
+        "temp_max": 15.03,
+        "pressure": 1018,
+        "humidity": 69,
+        "sea_level": 1018,
+        "grnd_level": 1013
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 3.02,
+        "deg": 222,
+        "gust": 8.39
+    },
+    "clouds": {
+        "all": 27
+    },
+    "dt": 1754526957,
+    "sys": {
+        "country": "GB",
+        "sunrise": 1754541213,
+        "sunset": 1754595542
+    },
+    "timezone": 3600,
+    "id": 2643743,
+    "name": "London",
+    "cod": 200
+}
+Using Base URI: 'https://api.openweathermap.org/data/2.5'
+{
+    "coord": {
+        "lon": -0.1257,
+        "lat": 51.5085
+    },
+    "weather": [
+        {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 288.27,
+        "feels_like": 287.61,
+        "temp_min": 288.27,
+        "temp_max": 288.27,
+        "pressure": 1018,
+        "humidity": 68,
+        "sea_level": 1018,
+        "grnd_level": 1013
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.92,
+        "deg": 223,
+        "gust": 7.71
+    },
+    "clouds": {
+        "all": 39
+    },
+    "dt": 1754526789,
+    "sys": {
+        "country": "GB",
+        "sunrise": 1754541213,
+        "sunset": 1754595542
+    },
+    "timezone": 3600,
+    "id": 2643743,
+    "name": "London",
+    "cod": 200
+}
+Using Base URI: 'https://api.openweathermap.org/data/2.5'
+{
+    "coord": {
+        "lon": -0.1257,
+        "lat": 51.5085
+    },
+    "weather": [
+        {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 288.27,
+        "feels_like": 287.61,
+        "temp_min": 288.27,
+        "temp_max": 288.27,
+        "pressure": 1018,
+        "humidity": 68,
+        "sea_level": 1018,
+        "grnd_level": 1013
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.92,
+        "deg": 223,
+        "gust": 7.71
+    },
+    "clouds": {
+        "all": 39
+    },
+    "dt": 1754526789,
+    "sys": {
+        "country": "GB",
+        "sunrise": 1754541213,
+        "sunset": 1754595542
+    },
+    "timezone": 3600,
+    "id": 2643743,
+    "name": "London",
+    "cod": 200
+}
+Using Base URI: 'https://api.openweathermap.org/data/2.5'
+{
+    "coord": {
+        "lon": -0.1257,
+        "lat": 51.5085
+    },
+    "weather": [
+        {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 288.27,
+        "feels_like": 287.61,
+        "temp_min": 288.27,
+        "temp_max": 288.27,
+        "pressure": 1018,
+        "humidity": 68,
+        "sea_level": 1018,
+        "grnd_level": 1013
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.92,
+        "deg": 223,
+        "gust": 7.71
+    },
+    "clouds": {
+        "all": 39
+    },
+    "dt": 1754526789,
+    "sys": {
+        "country": "GB",
+        "sunrise": 1754541213,
+        "sunset": 1754595542
+    },
+    "timezone": 3600,
+    "id": 2643743,
+    "name": "London",
+    "cod": 200
+}
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.042 sec
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
